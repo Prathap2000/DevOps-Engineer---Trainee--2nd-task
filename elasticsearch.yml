@@ -1,0 +1,7 @@
+cluster.name: my-elasticsearch-cluster
+node.name: node-1
+path.data: /usr/share/elasticsearch/data
+path.logs: /usr/share/elasticsearch/logs
+network.host: 0.0.0.0
+discovery.seed_hosts: ["node-1"]
+xpack.security.transport.ssl.enabled: true
